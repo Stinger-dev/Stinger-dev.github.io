@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cuestionario de aportes</title>
+        <link rel="icon" type="image/x-icon" href="https://www.andalucia.org/o/main-theme/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <style>
+
+            body{
+                margin: 0px;
+                text-align: center;
+                height: 100%;
+                font-family: 'Open Sans', sans-serif;
+            }
+            a{
+                text-decoration: none;
+                
+            }
+            a.logo{
+                font-family: 'Rubik', sans-serif;
+
+            }
+            a p {
+                color: green;
+                font-size: 3em ;
+                font-weight: 500;
+                vertical-align: middle;
+                margin-top: 1%;
+                margin-bottom: 1%;   
+            }
+            
+            header{
+                background-color: white;
+                margin-left: 3em;
+
+            }
+            div.cabecera{
+                padding-top: 0.5em;
+                padding-bottom: 0.5em;
+
+                padding-left: 3em;
+                padding-right: 3em;
+                margin-left: -3em;
+                text-align: center;
+
+                background-color: green;
+                
+            }
+            table{
+                margin: 0px;
+                width: 100%;
+                vertical-align: top;
+                height: 86vh;
+            }
+            td.menuLateral{
+                background-color:rgba(54, 54, 54, 0.2);
+                width: 14vw;
+                text-align: left;
+                vertical-align: top;
+                min-width: 150px;
+
+            }
+            td.content{
+                text-align: left;
+                vertical-align: top;
+                min-width: 500px;
+                max-width: 2000PX;
+                background-color: whitesmoke;
+            }
+            ul{
+                list-style: none;
+                margin-left: -20px;
+            }
+            footer{
+                text-align: left;
+                margin-left:     3em;
+                font-family: 'Roboto Mono', monospace;
+                font-size: smaller;
+            }
+            a{
+                color: blue;
+            }
+            a.current{
+                color: red;
+            }
+            ::-webkit-scrollbar {
+            width: 10px;
+            }
+            ::-webkit-scrollbar-track {
+            background: hsl(120, 100%, 25%);
+            }
+            ::-webkit-scrollbar-thumb {
+            background: hsl(120, 100%, 10%);
+            border-radius: 10px;
+
+            }
+            ::-webkit-scrollbar-thumb:hover {
+            background: #ffffff;
+            border-radius: 10px;
+            }
+            
+            a:hover{
+                background-color: hwb(0 77% 23%);
+            }
+            a.indice{
+                color: black;
+                font-weight: bold;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <!--CABECERA -->
+        <div class="cabecera" >
+            <header>
+                <a class="logo" href="Index.html" >
+                    <p>
+                        ANDALUCÍA
+                    </p>
+                </a>
+            </header>
+        </div>
+        <table border="0" >
+            <!--MENU LATERAL -->
+            <td class="menuLateral">
+                <ul>
+                    <li><a class="indice" href="Index.html#planificaViaje">Planifica tu viaje</a>
+                        <ul>
+                            <li>Como llegar</li>
+                            <li>Donde dormir</li>
+                            <li>Que comer</li>
+                            <li>Cosas que hacer</li>
+
+                        </ul>
+                    </li>
+                    <li> <a class="indice" href="Index.html#comunidades">Comunidades</a>
+                        <ul>
+                            <li><a href="Almeria.html">Almeria</a></li>
+                            <li><a href="Cadiz.html">Cadiz</a></li>
+                            <li><a href="Cordoba.html">Córdoba</a></li>
+                            <li><a href="Granada.html">Granada</a></li>
+                            <li><a href="Huelva.html">Huelva</a></li>
+                            <li><a href="Jaen.html">Jaén</a></li>
+                            <li><a href="Malaga.html">Málaga</a></li>
+                            <li><a href="Sevilla.html">Sevilla</a></li>
+
+                        </ul>
+                    </li>
+                    <li>Contacta con nosotros
+                        <ul>
+                            <li><a href="CuestionarioContacto.html">Pedir informacion</a></li>
+                            <li><a class="current" href="CuestionarioAporte.html">Aportes</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+            <td class="content">
+                <form action="https://iesjacaranda.es/lmsgi/resultado.php" method="get" autocomplete="off">
+                    <p>Buenas, gracias por querer hacer una aportacion, rellene los siguientes datos e indique que quiere añadir</p>
+                    <fieldset>
+                        <legend>Datos personales</legend>
+        
+                        <p>Nombre: <input type="text" name="nombre" size="40">  </p>
+                        <p>Apellidos: <input type="text" name="apellido" size="40">  </p>
+                        <p>E-mail: <input type="email" name="E-mail" size="40" >  </p>               
+                        <textarea name="descripcion" id="" cols="50" rows="10" placeholder="Indique una breve descripcion"></textarea>
+                        <p>Si quiere añadir algun archivo adicional: <input type="file" name="adicional" ></p>
+
+                    </fieldset>
+                    <p><input type="submit" value="Enviar"></p>
+
+                </form>
+
+
+            </td>
+        
+        </table>    
+
+
+        <!--PIE DE PAGINA-->
+        <footer>
+            <p align="center">
+                <a href="https://github.com/Stinger-dev">
+                    definitely not worth clicking here
+                </a>
+            </p>
+            <p align="right">
+                <a  href="https://static.wikia.nocookie.net/mamarre-estudios-espanol/images/a/a3/FB_IMG_1596591789564.jpg/revision/latest?cb=20200806023457&path-prefix=es">
+                    here either 
+                </a>
+            </p>
+
+        </footer>
+    </body>
+</html>

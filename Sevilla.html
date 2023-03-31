@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Sevilla</title>
+    <link rel="icon" type="image/x-icon" href="https://www.andalucia.org/o/main-theme/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: hsl(120, 100%, 25%);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: hsl(120, 100%, 10%);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ffffff;
+            border-radius: 10px;
+        }
+
+        body {
+            margin: 0px;
+            text-align: center;
+            height: 100%;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        header {
+            background-color: white;
+            margin-left: 3em;
+        }
+
+        div.cabecera {
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+
+            padding-left: 3em;
+            padding-right: 3em;
+            margin-left: -3em;
+            text-align: center;
+
+            background-color: green;
+        }
+
+        table.main {
+            margin: 0px;
+            width: 100%;
+            vertical-align: top;
+            height: 86vh;
+        }
+
+
+        td.menuLateral {
+            background-color: rgba(54, 54, 54, 0.2);
+            width: 14vw;
+            text-align: left;
+            vertical-align: top;
+            min-width: 150px;
+        }
+
+        td.content {
+            text-align: center;
+            vertical-align: top;
+            min-width: 500px;
+            max-width: 2000px;
+            background-color: whitesmoke;
+        }
+
+        table.banner2{
+            width: 98%;
+            height: 300px;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 5px #000000;
+            border: 0;
+            background-position: center;
+            font-size: x-large;
+            background-image: url(https://multimedia.andalucia.org/media/0BC700DB844F4EDFBE00C1FA9B493D71/img/1112772E6D5945A1B89C26E539DD0D99/SE_Catedral_01.jpg?responsive);
+        }
+        td.content p{
+            text-align: left;
+            margin-inline: 5%;
+            margin-bottom: 5%;
+            margin-top: 3%;
+            color: hsla(0, 0%, 0%, 0.8);
+        }
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h3{
+            text-align: left;
+            margin-left: 5%;
+            font-size: 150%;
+            margin-bottom: 0px;
+        }
+
+        ul {
+            list-style: none;
+            margin-left: -20px;
+        }
+
+        footer {
+            text-align: left;
+            margin-left: 3em;
+            font-family: "Roboto Mono", monospace;
+            font-size: smaller;
+        }
+
+        img {
+            width: 160px;
+            height: 160px;
+        }
+
+        a:hover {
+            background-color: hwb(0 77% 23%);
+        }
+
+        footer a:hover {
+            background-color: transparent;
+            color: pink;
+        }
+
+        footer a {
+            color: black;
+        }
+
+        a.current {
+            color: red;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a.indice {
+            color: black;
+            font-weight: bold;
+        }
+
+        a.logo {
+            font-family: "Rubik", sans-serif;
+        }
+
+        a p {
+            color: green;
+            font-size: 3em;
+            font-weight: 500;
+            vertical-align: middle;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        
+
+
+    </style>
+</head>
+
+<body>
+    <!--CABECERA -->
+    <div class="cabecera">
+        <header>
+            <a class="logo" href="Index.html">
+                <p>ANDALUCÍA</p>
+            </a>
+        </header>
+    </div>
+
+    <table class="main" border="0">
+        <!--MENU LATERAL -->
+        <td class="menuLateral">
+            <ul>
+                <li>
+                    <a class="indice" href="Index.html#planificaViaje">Planifica tu viaje</a>
+                    <ul>
+                        <li>Como llegar</li>
+                        <li>Donde dormir</li>
+                        <li>Que comer</li>
+                        <li>Cosas que hacer</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a class="indice" href="Index.html#comunidades">Comunidades</a>
+                    <ul>
+                        <li><a href="Almeria.html">Almeria</a></li>
+                        <li><a href="Cadiz.html">Cadiz</a></li>
+                        <li><a href="Cordoba.html">Córdoba</a></li>
+                        <li><a href="Granada.html">Granada</a></li>
+                        <li><a href="Huelva.html">Huelva</a></li>
+                        <li><a href="Jaen.html">Jaén</a></li>
+                        <li><a href="Malaga.html">Málaga</a></li>
+                        <li><a class="current" href="Sevilla.html">Sevilla</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Contacta con nosotros
+                    <ul>
+                        <li><a href="CuestionarioContacto.html">Pedir informacion</a></li>
+                        <li><a href="CuestionarioAporte.html">Aportes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </td>
+
+
+
+        <td class="content">
+            <table class="banner2">
+                <td>
+                    <h1>SEVILLA</h1>
+                </td>
+            </table>
+            <p>
+                Entre las estribaciones de Sierra Morena al norte y la Sierra Sur, fluye el Guadalquivir, el viejo Betis, regando un rico y fértil valle. En su curso bajo, a 70 kilómetros del mar se asienta la milenaria ciudad de Sevilla, capital de la Comunidad Autónoma andaluza y de la provincia más extensa y poblada de Andalucía.
+
+                Los pueblos y ciudades ribereños son vivo testimonio de su pasado histórico y cultural. Sevilla ciudad emblemática de fama universal, árabe, judía y romana, también en su río, su puerto fluvial, destino privilegiado del comercio de las Indias occidentales. Sus manifestaciones artísticas y folclóricas la convierten en un privilegiado destino turístico.
+            </p>  
+
+            <h3 >Localización</h3>
+            <p >
+
+                Es la capital de Andalucía, así como la provincia de mayor extensión del la comunidad autónoma. Limita con las provincias de Málaga y Cádiz al Sur, Huelva al Oeste, Badajoz al Norte, y Córdoba al Este.
+
+                Su capital es Sevilla.
+
+
+            </p>
+
+            <h3>Historia</h3>  
+
+           
+            <p >
+                Hacia el primer milenio a.c., coincidiendo con la colonización fenicia y la cultura tartésica, se remonta el origen de la ciudad de Sevilla. Su asentamiento en la confluencia de vías fluviales y terrestres facilitaron un rápido crecimiento económico del valle y tierras colindantes.
+
+                La Colonia Julia Romula Hispalis, fundada por Julio Cesar, desarrolla una espectacular actividad mercantil. Se crean importantes asentamientos en todo el territorio, cuya monumentalidad pervive en nuestros días. Los árabes dejarán una indeleble huella cultural y monumental en estas tierras. En el siglo XVI Sevilla vive un periodo de máximo esplendor. Al puerto sevillano llegan mercaderías de toda Europa y metales preciosos del Nuevo Mundo, que contribuirán al desarrollo del occidente europeo. Con la ilustración se reactivan el comercio, la agricultura y la industria. La exposición Universal de 1992 difunde y engrandece, aún más, el nombre de Sevilla.
+           
+            </p>
+
+            <h3>Paisaje</h3>  
+
+           
+            <p>
+                La provincia de Sevilla es un mosaico de culturas que hunden sus raíces en el más remoto pasado. La gran cuenca fluvial del Guadalquivir, Sierra Morena y las marismas del Parque Natural de Doñana, permiten ofrecer al visitante un mapa paisajístico de grandes humedales, refugio de una variada avifauna; recorrer senderos serranos de exuberante vegetación mediterránea; contemplar al toro bravo pastando en dehesas de centenarias encinas, o perderse en tierras llanas de suaves alcores donde se asientan pueblos acogedores y ciudades monumentales que son vivo testimonio de un pasado histórico de gran esplendor.               
+            </p>
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810113.5151419918!2d-6.156389704171112!3d37.51956974131466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12f2dae16bd169%3A0x30463fd8c9fcbc0!2sSevilla!5e0!3m2!1ses!2ses!4v1680277045336!5m2!1ses!2ses" width="97%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+        </td>
+    </table>
+
+
+
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <p align="center">
+            <!-- esto no esta en css pq es muy poca cantidad -->
+            <a href="https://github.com/Stinger-dev">
+                definitely not worth clicking here
+            </a>
+        </p>
+        <p align="right">
+            <a
+                href="https://static.wikia.nocookie.net/mamarre-estudios-espanol/images/a/a3/FB_IMG_1596591789564.jpg/revision/latest?cb=20200806023457&path-prefix=es">
+                here either
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

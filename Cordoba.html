@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Córdoba</title>
+    <link rel="icon" type="image/x-icon" href="https://www.andalucia.org/o/main-theme/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: hsl(120, 100%, 25%);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: hsl(120, 100%, 10%);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ffffff;
+            border-radius: 10px;
+        }
+
+        body {
+            margin: 0px;
+            text-align: center;
+            height: 100%;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        header {
+            background-color: white;
+            margin-left: 3em;
+        }
+
+        div.cabecera {
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+
+            padding-left: 3em;
+            padding-right: 3em;
+            margin-left: -3em;
+            text-align: center;
+
+            background-color: green;
+        }
+
+        table.main {
+            margin: 0px;
+            width: 100%;
+            vertical-align: top;
+            height: 86vh;
+        }
+
+
+        td.menuLateral {
+            background-color: rgba(54, 54, 54, 0.2);
+            width: 14vw;
+            text-align: left;
+            vertical-align: top;
+            min-width: 150px;
+        }
+
+        td.content {
+            text-align: center;
+            vertical-align: top;
+            min-width: 500px;
+            max-width: 2000px;
+            background-color: whitesmoke;
+        }
+
+        table.banner2{
+            width: 98%;
+            height: 300px;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 5px #000000;
+            border: 0;
+            background-position: center;
+            font-size: x-large;
+            background-image: url(https://multimedia.andalucia.org/media/C1DF41C3E6EF456A8B4A9B4845C32593/img/7B2A371526454055A71AC38C335E1834/16-20_Puente_Romano_y_Mezquita_de_Cordoba_Cordoba.jpg?responsive);
+        }
+        td.content p{
+            text-align: left;
+            margin-inline: 5%;
+            margin-bottom: 5%;
+            margin-top: 3%;
+            color: hsla(0, 0%, 0%, 0.8);
+        }
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h3{
+            text-align: left;
+            margin-left: 5%;
+            font-size: 150%;
+            margin-bottom: 0px;
+        }
+
+        ul {
+            list-style: none;
+            margin-left: -20px;
+        }
+
+        footer {
+            text-align: left;
+            margin-left: 3em;
+            font-family: "Roboto Mono", monospace;
+            font-size: smaller;
+        }
+
+        img {
+            width: 160px;
+            height: 160px;
+        }
+
+        a:hover {
+            background-color: hwb(0 77% 23%);
+        }
+
+        footer a:hover {
+            background-color: transparent;
+            color: pink;
+        }
+
+        footer a {
+            color: black;
+        }
+
+        a.current {
+            color: red;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a.indice {
+            color: black;
+            font-weight: bold;
+        }
+
+        a.logo {
+            font-family: "Rubik", sans-serif;
+        }
+
+        a p {
+            color: green;
+            font-size: 3em;
+            font-weight: 500;
+            vertical-align: middle;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        
+
+
+    </style>
+</head>
+
+<body>
+    <!--CABECERA -->
+    <div class="cabecera">
+        <header>
+            <a class="logo" href="Index.html">
+                <p>ANDALUCÍA</p>
+            </a>
+        </header>
+    </div>
+
+    <table class="main" border="0">
+        <!--MENU LATERAL -->
+        <td class="menuLateral">
+            <ul>
+                <li>
+                    <a class="indice" href="Index.html#planificaViaje">Planifica tu viaje</a>
+                    <ul>
+                        <li>Como llegar</li>
+                        <li>Donde dormir</li>
+                        <li>Que comer</li>
+                        <li>Cosas que hacer</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a class="indice" href="Index.html#comunidades">Comunidades</a>
+                    <ul>
+                        <li><a href="Almeria.html">Almeria</a></li>
+                        <li><a href="Cadiz.html">Cadiz</a></li>
+                        <li><a class="current" href="Cordoba.html">Córdoba</a></li>
+                        <li><a href="Granada.html">Granada</a></li>
+                        <li><a href="Huelva.html">Huelva</a></li>
+                        <li><a href="Jaen.html">Jaén</a></li>
+                        <li><a href="Malaga.html">Málaga</a></li>
+                        <li><a href="Sevilla.html">Sevilla</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Contacta con nosotros
+                    <ul>
+                        <li><a href="CuestionarioContacto.html">Pedir informacion</a></li>
+                        <li><a href="CuestionarioAporte.html">Aportes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </td>
+
+
+
+        <td class="content">
+            <table class="banner2">
+                <td>
+                    <h1>CÓRDOBA</h1>
+                </td>
+            </table>
+            <p>
+                Córdoba, capital de la España musulmana, es cabecera de un territorio situado en el centro de
+                 la geografía andaluza. El Guadalquivir, que se remansa en curso medio, atraviesa su provincia de
+                  este a oeste y fertiliza una amplia vega donde fructifican el cereal, la vid y el olivo.
+                <br>
+                <br>
+                Hacia el norte, la Campiña se encrespa y alcanza las últimas cimas de Sierra Morena, de 
+                tupido boscaje e intensa actividad cinegética.
+                <br>
+                <br>
+
+                Al sur, la Campiña va ganando altura hasta alcanzar las montañas de la Subbética.
+                 Sobre estas tierras calizas se extiende el olivar y se asientan pueblos blancos y 
+                 señoriales de una cuidada arquitectura barroca.
+                <br>
+                <br>
+                El paisaje montañoso de cobijo a una variada fauna. La provincia cordobesa, 
+                que conserva huellas del pasado ibérico, romano y musulmán, es rica en tradiciones;
+                 posee un impresionante patrimonio monumental y su gastronomía ha experimentado un 
+                 notable auge, recuperando un variado recetario de la cocina tradicional.
+            </p>  
+
+            <h3>Localización</h3>
+            <p>
+                La provincia de Córdoba se sitúa en la parte norte-central de la comunidad autónoma de Andalucía. 
+                Limita con las provincias de Málaga, Sevilla, Badajoz, Ciudad Real, Jaén y Granada.
+                <br>
+                <br>
+                Su capital es Córdoba.
+            </p>
+
+            <h3>Historia</h3>  
+
+           
+            <p>
+                Desde el Paleolítico, la provincia de Córdoba ha quedado marcada por la huella del hombre.
+                 Tartésicos y oretanos se disputaron la posesión de estas tierras y la explotación de 
+                 sus minas de hierro, plomo y cobre.
+                <br>
+                <br>
+                Los romanos la conquistaron fascinados por la belleza de su paisaje y la 
+                fertilidad de su valle. De su presencia dan testimonio las innumerables construcciones
+                 que recorren la provincia. Tras la expansión musulmana por la península ibérica, el territorio del
+                  Al-Andalus cordobés se erige en el principal foco de irradiación cultural y económico de la Europa medieval.
+                <br>
+                <br>
+                Con el Emirato independiente instaurado por Abderramán I y el califato Omeya de Abderramán III, Córdoba vive
+                 su máximo protagonismo histórico. El magisterio de grandes hombres -Séneca, Maimónides, Averroes...- difundió 
+                 por todo el orbe el esplendor y apogeo cordobés.
+                <br>
+                <br>
+                Tras la conquista cristiana, las repoblaciones del valle del Guadalquivir por Carlos III 
+                y las agitaciones sociales del siglo XIX, la provincia emprende un nuevo rumbo histórico. Hoy, este privilegiado 
+                enclave andaluz atesora un patrimonio monumental, capaz de cautivar al viajero más exigente.
+            </p>
+
+            <h3>Paisaje</h3>  
+
+           
+            <p>
+                Las tierras cordobesas se extienden entre campos de olivos y viñedos bañados por los afluentes del Guadalquivir, río que recorre la provincia de un lado a otro y la separa en dos: la zona montañosa de Sierra Morena y la llana campiña del Guadalquivir. Al sur encontramos otra zona de menor extensión pero de mayor altura: las Serranías Subbéticas.
+            </p>
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d781788.7365074353!2d-5.093351279203944!3d38.01568391582159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6cdea3183e7d9b%3A0x303d278a575ca10!2zQ8OzcmRvYmE!5e0!3m2!1ses!2ses!4v1680280421214!5m2!1ses!2ses" width="97%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+        </td>
+    </table>
+
+
+
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <p align="center">
+            <!-- esto no esta en css pq es muy poca cantidad -->
+            <a href="https://github.com/Stinger-dev">
+                definitely not worth clicking here
+            </a>
+        </p>
+        <p align="right">
+            <a
+                href="https://static.wikia.nocookie.net/mamarre-estudios-espanol/images/a/a3/FB_IMG_1596591789564.jpg/revision/latest?cb=20200806023457&path-prefix=es">
+                here either
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Málaga</title>
+    <link rel="icon" type="image/x-icon" href="https://www.andalucia.org/o/main-theme/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: hsl(120, 100%, 25%);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: hsl(120, 100%, 10%);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ffffff;
+            border-radius: 10px;
+        }
+
+        body {
+            margin: 0px;
+            text-align: center;
+            height: 100%;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        header {
+            background-color: white;
+            margin-left: 3em;
+        }
+
+        div.cabecera {
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+
+            padding-left: 3em;
+            padding-right: 3em;
+            margin-left: -3em;
+            text-align: center;
+
+            background-color: green;
+        }
+
+        table.main {
+            margin: 0px;
+            width: 100%;
+            vertical-align: top;
+            height: 86vh;
+        }
+
+
+        td.menuLateral {
+            background-color: rgba(54, 54, 54, 0.2);
+            width: 14vw;
+            text-align: left;
+            vertical-align: top;
+            min-width: 150px;
+        }
+
+        td.content {
+            text-align: center;
+            vertical-align: top;
+            min-width: 500px;
+            max-width: 2000px;
+            background-color: whitesmoke;
+        }
+
+        table.banner2{
+            width: 98%;
+            height: 300px;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 5px #000000;
+            border: 0;
+            background-position: center;
+            font-size: x-large;
+            background-image: url(https://multimedia.andalucia.org/media/18EAC9E01CED48C6A5267D28B6733B8C/img/8E990CD8927D4A8DBD98BD39F989C835/MA_Puerto_Muelle_Uno_17.jpg?responsive);
+        }
+        td.content p{
+            text-align: left;
+            margin-inline: 5%;
+            margin-bottom: 5%;
+            margin-top: 3%;
+            color: hsla(0, 0%, 0%, 0.8);
+        }
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h3{
+            text-align: left;
+            margin-left: 5%;
+            font-size: 150%;
+            margin-bottom: 0px;
+        }
+
+        ul {
+            list-style: none;
+            margin-left: -20px;
+        }
+
+        footer {
+            text-align: left;
+            margin-left: 3em;
+            font-family: "Roboto Mono", monospace;
+            font-size: smaller;
+        }
+
+        img {
+            width: 160px;
+            height: 160px;
+        }
+
+        a:hover {
+            background-color: hwb(0 77% 23%);
+        }
+
+        footer a:hover {
+            background-color: transparent;
+            color: pink;
+        }
+
+        footer a {
+            color: black;
+        }
+
+        a.current {
+            color: red;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a.indice {
+            color: black;
+            font-weight: bold;
+        }
+
+        a.logo {
+            font-family: "Rubik", sans-serif;
+        }
+
+        a p {
+            color: green;
+            font-size: 3em;
+            font-weight: 500;
+            vertical-align: middle;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        
+
+
+    </style>
+</head>
+
+<body>
+    <!--CABECERA -->
+    <div class="cabecera">
+        <header>
+            <a class="logo" href="Index.html">
+                <p>ANDALUCÍA</p>
+            </a>
+        </header>
+    </div>
+
+    <table class="main" border="0">
+        <!--MENU LATERAL -->
+        <td class="menuLateral">
+            <ul>
+                <li>
+                    <a class="indice" href="Index.html#planificaViaje">Planifica tu viaje</a>
+                    <ul>
+                        <li>Como llegar</li>
+                        <li>Donde dormir</li>
+                        <li>Que comer</li>
+                        <li>Cosas que hacer</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a class="indice" href="Index.html#comunidades">Comunidades</a>
+                    <ul>
+                        <li><a href="Almeria.html">Almeria</a></li>
+                        <li><a href="Cadiz.html">Cadiz</a></li>
+                        <li><a href="Cordoba.html">Córdoba</a></li>
+                        <li><a href="Granada.html">Granada</a></li>
+                        <li><a href="Huelva.html">Huelva</a></li>
+                        <li><a href="Jaen.html">Jaén</a></li>
+                        <li><a  class="current" href="Malaga.html">Málaga</a></li>
+                        <li><a href="Sevilla.html">Sevilla</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Contacta con nosotros
+                    <ul>
+                        <li><a href="CuestionarioContacto.html">Pedir informacion</a></li>
+                        <li><a href="CuestionarioAporte.html">Aportes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </td>
+
+
+
+        <td class="content">
+            <table class="banner2">
+                <td>
+                    <h1>MÁLAGA</h1>
+                </td>
+            </table>
+            <p>
+                Málaga milenaria y cosmopolita en el pasado, conserva intactas sus raíces históricas. Si en tiempos remotos fue testigo de los orígenes del hombre y de la cultura mediterránea, hoy convertida en primera potencia de la industria turística andaluza, mantiene viva su tradición de tierra acogedora y creativa.
+                <br><br>
+                Málaga marinera en su litoral donde nunca es invierno; de vocación serrana, tierra adentro, donde la naturaleza se muestra en todo su esplendor. Pueblos blancos de hermosa arquitectura, envueltos en románticas leyendas, ponen su punto de luz en los recónditos valles donde la vida discurre plácidamente. Y desde la alta sierra la mirada abarca el horizonte hasta perderse en la inmensidad azul del mar.            </p>  
+
+            <h3 >Localización</h3>
+            <p >
+
+                La provincia de Málaga, se sitúa al sur de la costa mediterránea, entre las provincias de Granada y Cádiz, y limitando al norte con las de Córdoba y Sevilla.
+                <br><br>
+
+                Su capital es Málaga.
+
+
+            </p>
+
+            <h3>Historia</h3>  
+
+           
+            <p >
+                Entre el mar y la sierra discurre la historia de esta peculiar provincia, cuya capital fue testigo del despegue económico y cultural del mediterráneo occidental. La Malaka fenicia se convirtió en un próspero centro comercial. Tras la invasión musulmana del siglo VIII, su territorio se arabiza, se integra, más tarde, en el reino nazarí de Granada y vive un nuevo periodo de apogeo comercial y cultural.
+                <br><br>
+
+                En el siglo XIX, las siderurgias, la potente industria textil de los Larios y la comercialización de sus vinos, proporciona un importante desarrollo económico a la provincia.
+                <br><br>
+
+                Tras décadas de crisis, en la segunda mitad del siglo XX, Málaga logra un rápido crecimiento económico gracias a la industria turística. Cada año millones de ciudadanos de todo el mundo eligen esta paradisíaca tierra para descansar en sus soleadas playas, conocer su rico patrimonio monumental o adentrarse en la belleza salvaje de su geografía serrana.           
+            </p>
+
+            <h3>Paisaje</h3>  
+
+           
+            <p>
+                La provincia malagueña cuenta con más de 160 kilómetros de franja costera. El mar Mediterráneo baña directamente un total de 14 municipios malagueños. Es posible acudir a enclaves escondidos donde la naturaleza más pura rodea el ambiente, o espacios más turísticos y consolidados. Tanto la zona oriental de la provincia, como la occidental disponen de playas tan atractivas que han hecho de la costa del sol un destino de primer orden mundial.
+                <br><br>
+
+                No podemos olvidar el paisaje interior, con más de 15 espacios protegidos como reserva, paraje o monumento natural. Lugares que recorren desde las profundidades del Mediterráneo a las altas cumbres. Bosques y ríos mágicos donde es posible todavía encontrar zorros, águilas reales o cabras montesas.            </p>
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817903.168345432!2d-5.249330763060665!3d36.7961267698156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72ea35fca22853%3A0x303d278a575cb00!2zTcOhbGFnYQ!5e0!3m2!1ses!2ses!4v1680297043809!5m2!1ses!2ses" width="97%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+        </td>
+    </table>
+
+
+
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <p align="center">
+            <!-- esto no esta en css pq es muy poca cantidad -->
+            <a href="https://github.com/Stinger-dev">
+                definitely not worth clicking here
+            </a>
+        </p>
+        <p align="right">
+            <a
+                href="https://static.wikia.nocookie.net/mamarre-estudios-espanol/images/a/a3/FB_IMG_1596591789564.jpg/revision/latest?cb=20200806023457&path-prefix=es">
+                here either
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

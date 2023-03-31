@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Jaen</title>
+    <link rel="icon" type="image/x-icon" href="https://www.andalucia.org/o/main-theme/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: hsl(120, 100%, 25%);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: hsl(120, 100%, 10%);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ffffff;
+            border-radius: 10px;
+        }
+
+        body {
+            margin: 0px;
+            text-align: center;
+            height: 100%;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        header {
+            background-color: white;
+            margin-left: 3em;
+        }
+
+        div.cabecera {
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+
+            padding-left: 3em;
+            padding-right: 3em;
+            margin-left: -3em;
+            text-align: center;
+
+            background-color: green;
+        }
+
+        table.main {
+            margin: 0px;
+            width: 100%;
+            vertical-align: top;
+            height: 86vh;
+        }
+
+
+        td.menuLateral {
+            background-color: rgba(54, 54, 54, 0.2);
+            width: 14vw;
+            text-align: left;
+            vertical-align: top;
+            min-width: 150px;
+        }
+
+        td.content {
+            text-align: center;
+            vertical-align: top;
+            min-width: 500px;
+            max-width: 2000px;
+            background-color: whitesmoke;
+        }
+
+        table.banner2{
+            width: 98%;
+            height: 300px;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 5px #000000;
+            border: 0;
+            background-position: center;
+            font-size: x-large;
+            background-image: url(https://multimedia.andalucia.org/media/3828008EC0C948DD983E9A9DDA8C5A14/img/0AE8D1DDA5324CABB4C9CF2E2FB50725/JA_Catedral_07.jpg?responsive);
+        }
+        td.content p{
+            text-align: left;
+            margin-inline: 5%;
+            margin-bottom: 5%;
+            margin-top: 3%;
+            color: hsla(0, 0%, 0%, 0.8);
+        }
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h3{
+            text-align: left;
+            margin-left: 5%;
+            font-size: 150%;
+            margin-bottom: 0px;
+        }
+
+        ul {
+            list-style: none;
+            margin-left: -20px;
+        }
+
+        footer {
+            text-align: left;
+            margin-left: 3em;
+            font-family: "Roboto Mono", monospace;
+            font-size: smaller;
+        }
+
+        img {
+            width: 160px;
+            height: 160px;
+        }
+
+        a:hover {
+            background-color: hwb(0 77% 23%);
+        }
+
+        footer a:hover {
+            background-color: transparent;
+            color: pink;
+        }
+
+        footer a {
+            color: black;
+        }
+
+        a.current {
+            color: red;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a.indice {
+            color: black;
+            font-weight: bold;
+        }
+
+        a.logo {
+            font-family: "Rubik", sans-serif;
+        }
+
+        a p {
+            color: green;
+            font-size: 3em;
+            font-weight: 500;
+            vertical-align: middle;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        
+
+
+    </style>
+</head>
+
+<body>
+    <!--CABECERA -->
+    <div class="cabecera">
+        <header>
+            <a class="logo" href="Index.html">
+                <p>ANDALUCÍA</p>
+            </a>
+        </header>
+    </div>
+
+    <table class="main" border="0">
+        <!--MENU LATERAL -->
+        <td class="menuLateral">
+            <ul>
+                <li>
+                    <a class="indice" href="Index.html#planificaViaje">Planifica tu viaje</a>
+                    <ul>
+                        <li>Como llegar</li>
+                        <li>Donde dormir</li>
+                        <li>Que comer</li>
+                        <li>Cosas que hacer</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a class="indice" href="Index.html#comunidades">Comunidades</a>
+                    <ul>
+                        <li><a href="Almeria.html">Almeria</a></li>
+                        <li><a href="Cadiz.html">Cadiz</a></li>
+                        <li><a href="Cordoba.html">Córdoba</a></li>
+                        <li><a href="Granada.html">Granada</a></li>
+                        <li><a href="Huelva.html">Huelva</a></li>
+                        <li><a class="current" href="Jaen.html">Jaén</a></li>
+                        <li><a href="Malaga.html">Málaga</a></li>
+                        <li><a href="Sevilla.html">Sevilla</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Contacta con nosotros
+                    <ul>
+                        <li><a href="CuestionarioContacto.html">Pedir informacion</a></li>
+                        <li><a href="CuestionarioAporte.html">Aportes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </td>
+
+
+
+        <td class="content">
+            <table class="banner2">
+                <td>
+                    <h1>JAÉN</h1>
+                </td>
+            </table>
+            <p>
+                La provincia de Jaén reúne en su variada geografía, la belleza de su paisaje natural y la monumentalidad de pueblos y ciudades que conservan viva la memoria de un pasado esplendoroso. Desde la antigüedad ha tenido un destacado papel histórico, como así evidencian los importantes vestigios iberos, romanos y visigodos. La batalla de las Navas de Tolosa, acaecida en sus tierras en 1212, puso las bases que acabarían con el dominio musulmán.
+                <br><br>
+                Tierra extensa y apacible donde el olivar abarca el horizonte. Y entre los olivos y la exuberante vegetación de sus parques naturales, impresionantes muestras de arte íbero, iglesias, catedrales, palacios y castillos de factura gótica, renacentista o barroca. Jaén, tierra del buen aceite, paraíso soñado para quien se adentra en el sur cruzando Despeñaperros.            </p>  
+
+            <h3 >Localización</h3>
+            <p >
+
+                La provincia de Jaén es la puerta de Andalucía, situada al noreste de la comunidad autónoma andaluza, justamente en la cabecera del río Guadalquivir, a caballo entre Sierra Morena y las Cordilleras Béticas. Su extensión es de 13.496,09 km2, limitando al norte con la provincia de Ciudad Real, con Córdoba al oeste, con Granada al sur y al este con Albacete.
+                <br><br>
+
+                La capital de la provincia es la ciudad de Jaén.
+
+            </p>
+
+            <h3>Historia</h3>  
+
+           
+            <p >
+                La provincia de Jaén ha tenido, desde la antigüedad, un destacado papel histórico. Se conservan importantes vestigios de los colonizadores fenicios, griegos y cartagineses. La batalla de las Navas de Tolosa en 1212 acabó con cinco siglos de dominio musulmán.
+                <br><br>
+
+                El reino de Jaén se convierte en un importante enclave estratégico fronterizo con el reino de Granada. A partir del siglo XVI la provincia vive un periodo de decadencia. En 1808, vuelve a recuperar su protagonismo histórico derrotando a Napoleón en la batalla de Bailén.
+                <br><br>
+
+                Tras la guerra civil, se produce una honda depresión y en los años 60 el despegue industrial de Linares y La Carolina, representan un gran impulso económico para la provincia. Úbeda y Baeza con su pujanza cultural y el auge de la industria del aceite de oliva ofrecen buenas perspectivas de desarrollo.
+            </p>
+
+            <h3>Paisaje</h3>  
+
+           
+            <p>
+                El perfil orográfico de la provincia de Jaén, en el que se alternan comarcas de Campiñas de terrenos llanos y suaves, zonas de lomas y abruptas y escarpadas sierras, ofrece un paisaje de impresionante belleza natural, en el que el olivar ocupa 2/3 de las tierras de cultivo.
+                <br><br>
+
+                En las zonas de sierra, de rica y variada fauna, la vegetación mediterránea luce en todo su esplendor.
+
+            </p>
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805358.3079743051!2d-3.921971271853095!3d37.95539961924866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6ef5befabda4c5%3A0x303d278a575caa0!2zSmHDqW4!5e0!3m2!1ses!2ses!4v1680297183910!5m2!1ses!2ses"  width="97%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+        </td>
+    </table>
+
+
+
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <p align="center">
+            <!-- esto no esta en css pq es muy poca cantidad -->
+            <a href="https://github.com/Stinger-dev">
+                definitely not worth clicking here
+            </a>
+        </p>
+        <p align="right">
+            <a
+                href="https://static.wikia.nocookie.net/mamarre-estudios-espanol/images/a/a3/FB_IMG_1596591789564.jpg/revision/latest?cb=20200806023457&path-prefix=es">
+                here either
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

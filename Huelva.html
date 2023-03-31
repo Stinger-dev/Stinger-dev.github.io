@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Huelva</title>
+    <link rel="icon" type="image/x-icon" href="https://www.andalucia.org/o/main-theme/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: hsl(120, 100%, 25%);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: hsl(120, 100%, 10%);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ffffff;
+            border-radius: 10px;
+        }
+
+        body {
+            margin: 0px;
+            text-align: center;
+            height: 100%;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        header {
+            background-color: white;
+            margin-left: 3em;
+        }
+
+        div.cabecera {
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+
+            padding-left: 3em;
+            padding-right: 3em;
+            margin-left: -3em;
+            text-align: center;
+
+            background-color: green;
+        }
+
+        table.main {
+            margin: 0px;
+            width: 100%;
+            vertical-align: top;
+            height: 86vh;
+        }
+
+
+        td.menuLateral {
+            background-color: rgba(54, 54, 54, 0.2);
+            width: 14vw;
+            text-align: left;
+            vertical-align: top;
+            min-width: 150px;
+        }
+
+        td.content {
+            text-align: center;
+            vertical-align: top;
+            min-width: 500px;
+            max-width: 2000px;
+            background-color: whitesmoke;
+        }
+
+        table.banner2{
+            width: 98%;
+            height: 300px;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 5px #000000;
+            border: 0;
+            background-position: center;
+            font-size: x-large;
+            background-image: url(https://multimedia.andalucia.org/media/1B6C848DB887464F995FF1CE8FBDABE4/img/94AC5815843C46EDB7A41254592A498C/HU_Alajar_Panoramicas_2.jpg?responsive);
+        }
+        td.content p{
+            text-align: left;
+            margin-inline: 5%;
+            margin-bottom: 5%;
+            margin-top: 3%;
+            color: hsla(0, 0%, 0%, 0.8);
+        }
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h3{
+            text-align: left;
+            margin-left: 5%;
+            font-size: 150%;
+            margin-bottom: 0px;
+        }
+
+        ul {
+            list-style: none;
+            margin-left: -20px;
+        }
+
+        footer {
+            text-align: left;
+            margin-left: 3em;
+            font-family: "Roboto Mono", monospace;
+            font-size: smaller;
+        }
+
+        img {
+            width: 160px;
+            height: 160px;
+        }
+
+        a:hover {
+            background-color: hwb(0 77% 23%);
+        }
+
+        footer a:hover {
+            background-color: transparent;
+            color: pink;
+        }
+
+        footer a {
+            color: black;
+        }
+
+        a.current {
+            color: red;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a.indice {
+            color: black;
+            font-weight: bold;
+        }
+
+        a.logo {
+            font-family: "Rubik", sans-serif;
+        }
+
+        a p {
+            color: green;
+            font-size: 3em;
+            font-weight: 500;
+            vertical-align: middle;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        
+
+
+    </style>
+</head>
+
+<body>
+    <!--CABECERA -->
+    <div class="cabecera">
+        <header>
+            <a class="logo" href="Index.html">
+                <p>ANDALUCÍA</p>
+            </a>
+        </header>
+    </div>
+
+    <table class="main" border="0">
+        <!--MENU LATERAL -->
+        <td class="menuLateral">
+            <ul>
+                <li>
+                    <a class="indice" href="Index.html#planificaViaje">Planifica tu viaje</a>
+                    <ul>
+                        <li>Como llegar</li>
+                        <li>Donde dormir</li>
+                        <li>Que comer</li>
+                        <li>Cosas que hacer</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a class="indice" href="Index.html#comunidades">Comunidades</a>
+                    <ul>
+                        <li><a href="Almeria.html">Almeria</a></li>
+                        <li><a href="Cadiz.html">Cadiz</a></li>
+                        <li><a href="Cordoba.html">Córdoba</a></li>
+                        <li><a href="Granada.html">Granada</a></li>
+                        <li><a class="current" href="Huelva.html">Huelva</a></li>
+                        <li><a href="Jaen.html">Jaén</a></li>
+                        <li><a href="Malaga.html">Málaga</a></li>
+                        <li><a href="Sevilla.html">Sevilla</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Contacta con nosotros
+                    <ul>
+                        <li><a href="CuestionarioContacto.html">Pedir informacion</a></li>
+                        <li><a href="CuestionarioAporte.html">Aportes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </td>
+
+
+
+        <td class="content">
+            <table class="banner2">
+                <td>
+                    <h1>HUELVA</h1>
+                </td>
+            </table>
+            <p>
+                Desde las estribaciones más occidentales de Sierra Morena hasta el litoral atlántico, el viajero que se adentra en la provincia onubense disfruta, bajo un cielo luminoso, de una naturaleza pródiga y delicada.
+                <br><br>
+                El clima de la sierra, húmedo y suave, dulcifica las altas temperaturas del verano y los rigores invernales. El centro, más caluroso y seco, se refresca con las brisas marinas del atardecer.
+                <br><br>
+
+                El clima templado del litoral, invita a disfrutar del sol y del mar durante todo el año, en un entorno de pueblos blancos, acogedores y dotados de los más modernos servicios.
+            </p>  
+
+            <h3 >Localización</h3>
+            <p >
+
+                Fronteriza con Portugal y bañada por el Océano Atlántico se sitúa en el oeste de Andalucía, limita al norte con la provincia de Badajoz, al este con las provincias de Sevilla y Cádiz, al sur con el Océano Atlántico y al oeste con Portugal.
+                <br><br>
+
+Pese a su vecindad con la provincia de Cádiz, es la única provincia española que no tiene comunicación directa con su vecina y para llegar a la misma debe atravesar la de Sevilla. La capital de la provincia de Huelva es la ciudad de Huelva
+
+
+            </p>
+
+            <h3>Historia</h3>  
+
+           
+            <p >
+                La historia de esta provincia, de inequívoca vocación marinera, se remonta al primer milenio anterior a nuestra era. Tartesos y fenicios explotan las minas del interior, convierten los pueblos del litoral en prósperos enclaves mercantiles y crean una ruta marítima, para transportar los minerales de Tharsis y Riotinto a las ciudades del Mediterráneo oriental.
+                <br><br>
+
+                Al final de la Edad Media, los puertos atlánticos onubenses viven un periodo de gran esplendor. Del muelle de Palos de la Frontera, en 1492, parte la primera expedición de Colón hacia el Nuevo Mundo. La gesta colombina señala un antes y un después en la historia de Huelva.           
+            </p>
+
+            <h3>Paisaje</h3>  
+
+           
+            <p>
+                Provincia rica en tradiciones y poseedora de un patrimonio paisajístico y cultural que se remonta a la civilización tartésica. Su huella se puede rastrear por el Andévalo y la Cuenca Minera. El bosque umbrío de la sierra, las dehesas de encinas y las milenarias explotaciones mineras, permiten disfrutar de paisajes dilatados y apacibles.
+                <br><br>
+
+                La campiña del Condado de grandes pueblos agrícolas y peculiar arquitectura, se extiende hasta la costa, de suave clima e inmensas playas cubiertas de un manto vegetal de pinos y enebros. El litoral alcanza los límites del Parque Nacional de Doñana, allí donde el Guadalquivir desemboca en el mar.            </p>
+
+
+            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810310.6251074!2d-7.382675444887202!3d37.50141093084252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11bec5f4b28889%3A0x30463fd8c9fca80!2sHuelva!5e0!3m2!1ses!2ses!4v1680297312144!5m2!1ses!2ses" width="97%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+        </td>
+    </table>
+
+
+
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <p align="center">
+            <!-- esto no esta en css pq es muy poca cantidad -->
+            <a href="https://github.com/Stinger-dev">
+                definitely not worth clicking here
+            </a>
+        </p>
+        <p align="right">
+            <a
+                href="https://static.wikia.nocookie.net/mamarre-estudios-espanol/images/a/a3/FB_IMG_1596591789564.jpg/revision/latest?cb=20200806023457&path-prefix=es">
+                here either
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

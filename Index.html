@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Vente pa Andalucia mi arma</title>
+    <link rel="icon" type="image/x-icon" href="https://www.andalucia.org/o/main-theme/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: hsl(120, 100%, 25%);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: hsl(120, 100%, 10%);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ffffff;
+            border-radius: 10px;
+        }
+
+        body {
+            margin: 0px;
+            text-align: center;
+            height: 100%;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        header {
+            background-color: white;
+            margin-left: 3em;
+        }
+
+        div.cabecera {
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+
+            padding-left: 3em;
+            padding-right: 3em;
+            margin-left: -3em;
+            text-align: center;
+
+            background-color: green;
+        }
+
+        table.main {
+            margin: 0px;
+            width: 100%;
+            vertical-align: top;
+            height: 86vh;
+        }
+
+        table.comunidades {
+            width: 90%;
+            margin-top: -20px;
+        }
+
+        table.comunidades caption {
+            margin-left: 8%;
+            margin-right: 8%;
+            font-size: 93%;
+            color: rgb(95, 95, 95);
+            text-align: justify;
+        }
+
+        td.menuLateral {
+            background-color: rgba(54, 54, 54, 0.2);
+            width: 14vw;
+            text-align: left;
+            vertical-align: top;
+            min-width: 150px;
+        }
+
+        td.content {
+            text-align: center;
+            vertical-align: top;
+            min-width: 500px;
+            max-width: 2000px;
+            background-color: whitesmoke;
+        }
+
+        td.primera {
+            width: 25%;
+            vertical-align: top;
+        }
+
+        table.primera {
+            text-align: center;
+            height: fit-content;
+            vertical-align: top;
+            margin-top: 10px;
+        }
+
+        table.comunidades td {
+            width: 25%;
+            height: 150px;
+            vertical-align: bottom;
+            background-size: cover;
+            background-position: center;
+        }
+
+        table.comunidades h3 {
+            color: white;
+            text-shadow: 0 0 5px #000000;
+            /* con esto mejoro mucho la visibilidad del texto */
+        }
+
+        ul {
+            list-style: none;
+            margin-left: -20px;
+        }
+
+        footer {
+            text-align: left;
+            margin-left: 3em;
+            font-family: "Roboto Mono", monospace;
+            font-size: smaller;
+        }
+
+        img {
+            width: 160px;
+            height: 160px;
+        }
+
+        a:hover {
+            background-color: hwb(0 77% 23%);
+        }
+
+        footer a:hover {
+            background-color: transparent;
+            color: pink;
+        }
+
+        footer a {
+            color: black;
+        }
+
+        a.current {
+            color: red;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        a.logo {
+            font-family: "Rubik", sans-serif;
+        }
+
+        a p {
+            color: green;
+            font-size: 3em;
+            font-weight: 500;
+            vertical-align: middle;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        a.indice {
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!--CABECERA -->
+    <div class="cabecera">
+        <header>
+            <a class="logo" href="Index.html">
+                <p>ANDALUCÍA</p>
+            </a>
+        </header>
+    </div>
+
+    <table class="main" border="0">
+        <!--MENU LATERAL -->
+        <td class="menuLateral">
+            <ul>
+                <li>
+                    <a class="indice" href="Index.html#planificaViaje">Planifica tu viaje</a>
+                    <ul>
+                        <li>Como llegar</li>
+                        <li>Donde dormir</li>
+                        <li>Que comer</li>
+                        <li>Cosas que hacer</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a class="indice" href="Index.html#comunidades">Comunidades</a>
+                    <ul>
+                        <li><a href="Almeria.html">Almeria</a></li>
+                        <li><a href="Cadiz.html">Cadiz</a></li>
+                        <li><a href="Cordoba.html">Córdoba</a></li>
+                        <li><a href="Granada.html">Granada</a></li>
+                        <li><a href="Huelva.html">Huelva</a></li>
+                        <li><a href="Jaen.html">Jaén</a></li>
+                        <li><a href="Malaga.html">Málaga</a></li>
+                        <li><a href="Sevilla.html">Sevilla</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Contacta con nosotros
+                    <ul>
+                        <li><a href="CuestionarioContacto.html">Pedir informacion</a></li>
+                        <li><a href="CuestionarioAporte.html">Aportes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </td>
+
+        <td class="content">
+            <table id="planificaViaje" class="primera" border="0" cellspacing="20">
+                <caption>
+                    <font size="6">
+                        <strong>Planifica tu viaje<br /></strong>
+                    </font>
+                </caption>
+                <tr>
+                    <td class="primera">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2767/2767367.png" />
+                        <h3><i>Cómo llegar</i></h3>
+                        Andalucía está situada al sur de la Península Ibérica. El acceso a
+                        Andalucía puede realizarse en avión, en barco, en tren o por
+                        carretera.
+                    </td>
+
+                    <td class="primera">
+                        <img
+                            src="https://cdn-icons-png.flaticon.com/512/58/58248.png?w=740&t=st=1675250739~exp=1675251339~hmac=6585f2bc870e1b9ecf190d8d4ce87c5c3f81720b996b2efaf7802a0c6b553f21" />
+                        <h3><i>Dónde dormir</i></h3>
+                        Los alojamientos de Andalucía satisfacen al viajero más exigente,
+                        desde un ambiente diferente al estilo más clásico. Hay multitud de
+                        opciones donde elegir.
+                    </td>
+
+                    <td class="primera">
+                        <img src="https://cdn-icons-png.flaticon.com/512/58/58312.png" />
+                        <h3><i>Qué comer</i></h3>
+                        La gastronomía andaluza es tan amplia y variada como su
+                        territorio. Disfruta de todo un repertorio de platos y productos
+                        cuya excelencia es celebrada en todo el mundo.
+                    </td>
+
+                    <td class="primera">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5147/5147215.png" />
+                        <h3><i>Cosas que hacer</i></h3>
+                        Conoce las posibilidades que brinda esta región del sur de la
+                        Península Ibérica vengas en la época del año que vengas.
+                    </td>
+                </tr>
+            </table>
+
+            <font size="5" align="left">
+                <!-- esto es demasiado corto como para hecer css -->
+                <p style="margin-left: 6%">
+                    <strong>COMUNIDADES</strong>
+                </p>
+            </font>
+
+            <table id="comunidades" class="comunidades" border="0" align="center" cellspacing="10">
+                <caption>
+                    <p>
+                        Más de 800 kilómetros de costa, dos Parques Nacionales y ciudades
+                        como Sevilla, Córdoba o Granada, son la carta de presentación de
+                        Andalucía, pero esta tierra es mucho más. Descubre los lugares
+                        imprescindibles que no debes perderte si vienes a Andalucía y
+                        disfruta del viaje!
+                    </p>
+                </caption>
+                <tr align="center">
+                    <td style="
+                background-image: url(https://multimedia.andalucia.org/media/E74C94693940442188A671D8138CB397/img/4229D9B5C20D4DA19252E544CEB9B62C/AL_Almeria_Alcazaba_03.jpg?responsive);
+              ">
+                        <a href="Almeria.html">
+                            <h3><i>Almería</i></h3>
+                        </a>
+                    </td>
+                    <td style="
+                background-image: url(https://multimedia.andalucia.org/media/D2F811AA04B5480FA3D995CE5109CE41/img/0FD387077C10474BB773330837469828/CA_Cadiz_Castillo_San_Sebastian_07.jpg?responsive);
+              ">
+                        <a href="Cadiz.html">
+                            <h3><i>Cádiz</i></h3>
+                        </a>
+                    </td>
+                    <td style="
+                background-image: url(https://multimedia.andalucia.org/media/C1DF41C3E6EF456A8B4A9B4845C32593/img/7B2A371526454055A71AC38C335E1834/16-20_Puente_Romano_y_Mezquita_de_Cordoba_Cordoba.jpg?responsive);
+              ">
+                        <a href="Cordoba.html">
+                            <h3><i>Córdoba</i></h3>
+                        </a>
+                    </td>
+                    <td style="
+                background-image: url(https://multimedia.andalucia.org/media/0B97BD505CE24B07830CE6C43B03E173/img/929BE4B0C9AE4901918F8D5B309BC441/15-18_Alhabram_des_del_mirador_de_San_Nicolas_Granada.jpg?responsive);
+              ">
+                        <a href="Granada.html">
+                            <h3><i>Granada</i></h3>
+                        </a>
+                    </td>
+                </tr>
+
+                <tr align="center">
+                    <td style="background-image: url(https://multimedia.andalucia.org/media/1B6C848DB887464F995FF1CE8FBDABE4/img/94AC5815843C46EDB7A41254592A498C/HU_Alajar_Panoramicas_2.jpg?responsive);">
+                        <a href="Huelva.html">
+                            <h3><i>Huelva</i></h3>
+                        </a>
+                    </td>
+                    <td style="background-image: url(https://multimedia.andalucia.org/media/3828008EC0C948DD983E9A9DDA8C5A14/img/0AE8D1DDA5324CABB4C9CF2E2FB50725/JA_Catedral_07.jpg?responsive);">
+                        <a href="Jaen.html">
+                            <h3><i>Jaén</i></h3>
+                        </a>
+                    </td>
+                    <td style="background-image: url(https://multimedia.andalucia.org/media/18EAC9E01CED48C6A5267D28B6733B8C/img/8E990CD8927D4A8DBD98BD39F989C835/MA_Puerto_Muelle_Uno_17.jpg?responsive);">
+                        <a href="Malaga.html">
+                            <h3><i>Málaga</i></h3>
+                        </a>
+                    </td>
+                    <td style="background-image: url(https://multimedia.andalucia.org/media/0BC700DB844F4EDFBE00C1FA9B493D71/img/1112772E6D5945A1B89C26E539DD0D99/SE_Catedral_01.jpg?responsive);">
+                        <a href="Sevilla.html">
+                            <h3><i>Sevilla</i></h3>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1574385.990077746!2d-4.415029560207043!3d37.50612111579065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11d9b1cf9dc545%3A0xc1c9654d77f1f30f!2sAndaluc%C3%ADa!5e0!3m2!1ses!2ses!4v1680277166380!5m2!1ses!2ses" width="97%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </td>
+
+    </table>
+  
+   
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <p align="center">
+            <!-- esto no esta en css pq es muy poca cantidad -->
+            <a href="https://github.com/Stinger-dev">
+                definitely not worth clicking here
+            </a>
+        </p>
+        <p align="right">
+            <a
+                href="https://static.wikia.nocookie.net/mamarre-estudios-espanol/images/a/a3/FB_IMG_1596591789564.jpg/revision/latest?cb=20200806023457&path-prefix=es">
+                here either
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>
